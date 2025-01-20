@@ -1,7 +1,23 @@
-const express = require('express');
-const app = express();
-const port = 4567;
+const express=require('express');
+const mongoose=require('mongoose')
 
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+const app=express()
+const PORT=8084
+
+
+let connection= mongoose.connect("mongodb+srv://hellonigga:thameem@cluster0.rqccl.mongodb.net/")
+
+app.get("/ping",(req,res)=>{
+    res.send("pong")
+})
+
+app.listen(PORT,async()=>{
+try{
+    await connection;
+    console.log("Successfully connected to MongoDB");
+} catch (error){
+    console.log(error);
+}
+
+    console.log(`Server is running on port ${PORT}`)
 })

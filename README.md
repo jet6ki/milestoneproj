@@ -88,5 +88,5 @@ This project focuses on building a scalable and secure e-commerce application. Y
 
 ## Milestone 2: Project Overview
 - Added Login Page
-
+- Updated index.js and 
 ---

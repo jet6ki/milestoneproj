@@ -84,21 +84,9 @@ This project focuses on building a scalable and secure e-commerce application. Y
    - **Delete**: Cancel orders.
 
 ## Milestone 1: Project Overview
-**Goals Covered:**
-- Understand the overall structure of a MERN project.
-- Learn to set up a new project repository.
-- Explore the functionalities of an e-commerce application, including CRUD operations.
+- Created Repository
 
-## Latest Update
-### New Features:
-- **Login Page**: A user login page has been implemented using **React Router DOM** for navigation and **useState** for managing state.
-- **Home Page**: A dynamic home page has been added with a simple greeting and a "Login" button to redirect to the login page.
-
-### Next Steps:
-- Set up the development environment for the MERN stack.
-- Implement basic CRUD operations for users, products, and orders.
-- Integrate backend CRUD logic with the React frontend.
-
-Stay tuned and get ready to master CRUD operations while building your e-commerce application! 🚀
+## Milestone 2: Project Overview
+- Added Login Page
 
 ---
